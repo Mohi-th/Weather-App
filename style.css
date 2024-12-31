@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+    color: white;
+}
+
+body {
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: 325px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    /* height: 65vh; */
+    border-radius: 15px;
+}
+
+/* .search_bar{
+    background-color: wheat;
+    margin: 20px 25px;
+}
+ */
+.search_bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.search_input {
+    padding: 0 15px;
+    height: 40px;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: small;
+    color: black;
+}
+
+.search_input:focus{
+    outline: none;
+}
+
+.search_bar  .search_btn {
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 55px;
+    border: none;
+    cursor: pointer;
+}
+
+.search_btn img {
+    height: 50%;
+    object-fit: cover;
+}
+
+.weather_image {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.weather_image img {
+    width: 100%;
+}
+
+.weather .temp h1{
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.city_name h2{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.ext{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.ext_info{
+    display: flex;
+    gap: 10px;
+}
+
+.info h4{
+    font-weight: 400;
+}
+
+.info p{
+    font-weight: 300;
+    font-size: small;
+}
+.ext_img{
+    width: 30px;
+}
+.ext_img img{
+    width: 100%;
+}
