@@ -2,7 +2,7 @@
 
 A sleek, minimal weather application that shows the current temperature, humidity, and wind speed for any city using real-time data. Built using **HTML**, **CSS**, and **JavaScript** with API integration.
 
-![Weather UI](./weather-ui.png)
+![Weather UI](/weather-ui.png)
 
 ---
 
