@@ -1,0 +1,36 @@
+# 🌤️ Weather App
+
+A sleek, minimal weather application that shows the current temperature, humidity, and wind speed for any city using real-time data. Built using **HTML**, **CSS**, and **JavaScript** with API integration.
+
+![Weather UI](./weather-ui.png)
+
+---
+
+## ✨ Features
+
+- 🔍 Search for any city
+- 🌦️ Display current weather conditions
+- 🌡️ Shows temperature in Celsius
+- 💧 Displays humidity
+- 🌬️ Wind speed indicator
+- 📱 Clean, responsive UI with modern design
+
+---
+
+## 🔧 Tech Stack
+
+- HTML5
+- CSS3 (with gradients & flexbox)
+- Vanilla JavaScript
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Mohi-th/weather-app.git
+
+# Open the file in browser
+Open index.html with any browser
